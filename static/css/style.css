@@ -11,10 +11,10 @@ a{text-decoration: none;color:#000;}
 .clearfix{*zoom:1}
 .clearfix:before,
 .clearfix:after{display:table;content:"";line-height:0;clear:both}
-.header{width: 100%;height: 80px;overflow: hidden;border-bottom: 1px solid #eee;min-width: 1200px; position: relative; z-index: 9000;}
+.header{width: 100%;height: 80px;overflow: hidden;border-bottom: 1px solid #eee;min-width: 500px; position: relative; z-index: 9000;}
 .header-box{color:#fff;font-size:16px;width: 890px;height:80px;margin:0 auto; display: flex;}
 .header .actived{color:#0d8ce8;pointer-events: none;}
-.header a.logo-href{display: block;width: 215px;height: 80px;position: relative;top: 30px;background: url(../img/logo.png) no-repeat;background-size: 100%;}
+.header a.logo-href{display: block;width: 215px;height: 80px;position: relative;background: url(../img/logo.png) no-repeat;background-size: 100%;}
 .header .clearfix a.on{color:#1e78e7;}
 .header .clearfix a{display: block;text-align: center;width: 64px;text-decoration: none;}
 .header .clearfix a:after {content:"";display: block;z-index: 2;margin-left: 50%;height: 1px;transform: translate(-50%);top: -20px;position: relative;}
@@ -25,6 +25,7 @@ a{text-decoration: none;color:#000;}
 .footer li{float:left;margin-right:35px;margin-bottom:30px;}
 .footer a{color:#646464;text-decoration: none;}
 .footer a:hover{color:#1e78eb;text-decoration: none;}
+
 
 .page-index .banner{width: 100%;background: url(../img/banner.jpg) no-repeat 50% 70%; background-size: cover; padding-top: 30%;}
 @keyframes ad_width {
